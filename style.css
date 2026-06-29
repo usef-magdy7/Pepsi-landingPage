@@ -124,6 +124,7 @@ nav ul a {
        flex-direction: column; 
        text-align: center;
        padding: 2rem 0 0;
+       height: auto;
     }
     #home .content .content-text{
         margin-bottom: 2rem;
@@ -151,8 +152,12 @@ nav ul a {
 @media (max-width:600px){
 
     #home{
-        min-height: 100vh;
+        
         height: auto;
+        min-height: 100vh;
+    }
+    nav{
+        padding-top: 15px;
     }
 
     .container{
@@ -164,12 +169,12 @@ nav ul a {
     }
 
     #home .content .content-text h1{
-        font-size: 40px;
+        font-size: 32px;
         line-height: 1.2;
     }
 
     #home .content .content-text h1 span{
-        font-size: 50px;
+        font-size: 42px;
     }
 
     #home .content .content-text p{
@@ -192,5 +197,4 @@ nav ul a {
         width: 80px;
         margin-top: 10px;
     }
-}
 }
