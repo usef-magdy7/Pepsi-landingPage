@@ -149,24 +149,48 @@ nav ul a {
 
 /* Mobile */
 @media (max-width:600px){
-    nav{
-        display: block;
+
+    #home{
+        min-height: 100vh;
+        height: auto;
     }
-    nav .logo{
-        display: block;
-        margin: 0 auto 15px;
+
+    .container{
+        margin: 0 15px;
     }
-    nav ul{
-        justify-content: center;
+
+    #home .content{
+        padding-top: 1rem;
     }
-    nav ul a{
-        font-size: 12px;
+
+    #home .content .content-text h1{
+        font-size: 40px;
+        line-height: 1.2;
     }
-    .pepsi-types{
-        margin-top: 15px;
+
+    #home .content .content-text h1 span{
+        font-size: 50px;
     }
+
+    #home .content .content-text p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #home .content > img{
+        width: 150px;
+    }
+
     .social{
-    display: flex;
-    flex-direction: row;
-  }
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin: 15px 0;
+    }
+
+    .pepsi-types{
+        width: 80px;
+        margin-top: 10px;
+    }
+}
 }
